@@ -115,3 +115,44 @@ body {
   box-shadow: none;
   color: grey;
 }
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  color: white;
+  text-align: center;
+}
+
+.cnt1 {
+  background: #929dff;
+  height: 90px;
+  width: 170px;
+  border-radius: 15px;
+}
+.cnt2 {
+  background: #734cf2;
+  height: 90px;
+  width: 170px;
+  border-radius: 15px;
+}
+.cnt3 {
+  background: #d288ff;
+  height: 90px;
+  width: 170px;
+  border-radius: 15px;
+}
+.cnt4 {
+  background: #000000;
+  height: 90px;
+  width: 170px;
+  border-radius: 15px;
+}
