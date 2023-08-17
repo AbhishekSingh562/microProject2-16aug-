@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(248, 248, 193);
+}
+
+.navbar {
+  display: flex;
+  background: #6f6af7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: white;
+  height: 50px;
+}
+
+.dappr {
+  padding-left: 35px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu-items {
+  display: flex;
+  gap: 44px; /* Adjust the gap between menu items as needed */
+  padding-left: 400px;
+  padding-right: 120px;
+  font-size: 20px;
+}
+
+.navbar-menu {
+  cursor: pointer;
+}
+
+.input-box {
+  position: relative;
+  display: inline-block;
+  background: white;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.inbox {
+  padding: 8px 20px 8px 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  width: 75%;
+}
+
+.inbox::placeholder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 75%;
+  left: 15px;
+  z-index: 1;
+}
+
+.inbox:focus {
+  outline: none;
+  box-shadow: none;
+  color: grey;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  z-index: 2;
+}
+
+.line-logo {
+  height: 20px;
+  padding-right: 5px;
+  padding-left: 30px;
+}
+
+.section1 {
+  padding-top: 180px;
+}
