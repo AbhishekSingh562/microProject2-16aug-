@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(248, 248, 193);
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -155,4 +155,42 @@ body {
   height: 90px;
   width: 170px;
   border-radius: 15px;
+}
+
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+  background: #483eff;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+}
+
+.section3 textarea {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 17px;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  color: grey;
+}
+.left-section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.floating-image {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 500;
+}
+
+.floating-image img {
+  max-width: 100px;
+  height: auto;
 }
