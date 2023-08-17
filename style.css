@@ -83,5 +83,35 @@ body {
 }
 
 .section1 {
-  padding-top: 180px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section1 img {
+  width: 350px;
+  height: 400px;
+}
+
+.right-section1 {
+  padding-right: 150px;
+  padding-top: 15px;
+}
+.section1 textarea {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 17px;
+  width: 750px;
+  height: 360px;
+  background: #e5d8ff;
+  border: none;
+  border-radius: 10px;
+  color: grey;
+}
+
+.section1 textarea:focus {
+  outline: none;
+  box-shadow: none;
+  color: grey;
 }
